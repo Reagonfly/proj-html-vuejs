@@ -63,7 +63,6 @@ export default {
     @use '../styles/partials/variables' as *;
 
     .container-fluid.contacts{
-        width: 100vw;
         height: 55px;
         background-color: $mud;
         .row{

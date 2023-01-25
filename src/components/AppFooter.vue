@@ -54,7 +54,7 @@ export default {
                 <h4>Contact Me</h4>
                 <div class="icon">
                     <i class="fa fa-location-arrow"></i>
-                    <span>4500 Mercantile plaza,suite 300,fort worth,TX,76137,USA</span>
+                    <span>4500 Mercantile plaza,suite <br>300,fort worth,TX,76137,USA</span>
                 </div>
                 <div class="icon">
                     <i class="fa fa-phone my-3"></i>
