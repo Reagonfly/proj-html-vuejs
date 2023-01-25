@@ -85,48 +85,54 @@ export default {
     height: 400px;
     width: 100vw;
     background-color: $myboi;
-    span{
-            color: $footxt;
-        }
+    .row{
+        width: 80%;
+        margin: 0 auto;
 
-    hr{
-        color: $onbltx;
-        text-align: center;
-    }
-
-    .cr{
-        color: $bleached;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    .mt{
-      margin-top: 6rem;
-      padding: 0 0 15px;
-      font-size: 16px;
-      padding: 0 2rem;
-
-        .icon{
-            i{
-                margin-right: 2rem;
-                color: $range;
-                line-height: 30px;
-                display: inline-block;
+        span{
+                color: $footxt;
             }
+    
+        hr{
+            color: $onbltx;
+            text-align: center;
+        }
+    
+        .cr{
+            color: $bleached;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
         }
 
-        h4{
-            color: $range;
-        }
-
-        ul{
-            list-style: none;
-            padding-left: 0pt;
-        
-            li{
-                margin-top: .5rem;
-                a{
-                    color: $footxt;
-                    text-decoration: none;
+        .mt{
+          margin-top: 6rem;
+          padding: 0 0 15px;
+          font-size: 16px;
+          padding: 0 2rem;
+    
+            .icon{
+                i{
+                    margin-right: 2rem;
+                    color: $range;
+                    line-height: 30px;
+                    display: inline-block;
+                }
+            }
+    
+            h4{
+                color: $range;
+            }
+    
+            ul{
+                list-style: none;
+                padding-left: 0pt;
+            
+                li{
+                    margin-top: .5rem;
+                    a{
+                        color: $footxt;
+                        text-decoration: none;
+                    }
                 }
             }
         }

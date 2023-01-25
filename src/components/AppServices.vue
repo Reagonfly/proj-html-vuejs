@@ -61,11 +61,19 @@ export default {
             border: 0;
             font-size: 21px;
             font-weight: 500;
+            transition: 0.5s;
     
             a{
                 text-decoration: none;
                 color: $bleached;
                 font-weight: 500;
+            }
+        }
+        button:hover{
+            color: $bleached;
+            background-color: $navy;
+            a:hover{
+                color: $bleached;
             }
         }
     }
